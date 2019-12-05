@@ -43,7 +43,7 @@ class Asignatura:
 
 def print_menu():
     print()
-    print("-------------------- SOAP     Api " +
+    print("-------------------- SOAP Api " +
           emoji.emojize(":grinning_face_with_big_eyes:") + "  ----------------------")
     print("| Eliga la opción deseada en las siguientes opciones: |")
     print("| 1. Lista de Estudiantes                             |")
