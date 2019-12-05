@@ -6,36 +6,6 @@ import emoji
 url = "http://localhost:7777/ws/AcademicoWebService?wsdl"
 client = Client(url)
 service = client.service
-# Prefixes (1)
-#       ns0 = "http://soap.sparkjavasoap.avathartech.com/"
-#    Ports (1):
-#       (AcademicoWebServicePort)
-#          Methods (5):
-#             getAllEstudiante()
-#             getAsignatura(xs:int arg0, )
-#             getEstudiante(xs:int arg0, )
-#             getProfesor(xs:string arg0, )
-#             holaMundo(xs:string arg0, )
-#          Types (13):
-#             asignatura
-#             estudiante
-#             getAllEstudiante
-#             getAllEstudianteResponse
-#             getAsignatura
-#             getAsignaturaResponse
-#             getEstudiante
-#             getEstudianteResponse
-#             getProfesor
-#             getProfesorResponse
-#             holaMundo
-#             holaMundoResponse
-#             profesor
-
-
-def jprint(obj):
-    # create a formatted string of the Python JSON object
-    text = json.dumps(obj, sort_keys=True, indent=4)
-    print(text)
 
 
 class Estudiante:
